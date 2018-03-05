@@ -1,0 +1,11 @@
+- Managed vs. self-hosted
+- Tools: GitHub, OpsGenie, AWS CloudWatch, Jira, ECS/Docker/Containers, Static pages, Nignx
+- Monitoring
+- Simple solutions
+- From commit to deployment
+- Throw over the fence deployment
+- Everyone must see if there are problems in production
+- Data analytics - Google Analytics
+- Ads => alert from DoubleClick if revenue is declining
+- Pizza sized teams
+- Everyone has account on all relevant systems
