@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-
 html {
     font-size: 100%;
 }
@@ -23,6 +22,12 @@ h3 {
     border-radius: 3px;
     color: orange;
     color: #ff4200;
+}
+
+.white-headline h1,
+.white-headline h2,
+.white-headline h3 {
+    color: #fff;
 }
 
 .remark-code,

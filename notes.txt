@@ -1,5 +1,5 @@
 - Managed vs. self-hosted
-- Tools: GitHub, OpsGenie, AWS CloudWatch, Jira, ECS/Docker/Containers, Static pages, Nignx
+- Tools: Slack, GitHub, OpsGenie, AWS CloudWatch, Jira, ECS/Docker/Containers, Static pages, Nignx
 - Monitoring
 - Simple solutions
 - From commit to deployment
@@ -9,3 +9,7 @@
 - Ads => alert from DoubleClick if revenue is declining
 - Pizza sized teams
 - Everyone has account on all relevant systems
+- On-call for everyone
+- Handling incidents (incident commander)
+- Diversity?
+- Service-to-service communication
