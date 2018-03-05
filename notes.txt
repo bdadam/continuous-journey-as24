@@ -13,3 +13,4 @@
 - Handling incidents (incident commander)
 - Diversity?
 - Service-to-service communication
+- CI/CD - tools, everyone has access to their pipelines, Jenkins as self service
