@@ -11,6 +11,18 @@ background-image: url(images/dardan-mu-268794-unsplash.jpg)
 
 ---
 
+class: center, middle, white-headline
+background-image: url(images/brina-blum-112501-unsplash.jpg)
+.photo-credit[ [photo: Brina Blum](https://unsplash.com/photos/_fBturNUtd8) ]
+
+# Where are we coming from?
+
+---
+
+# Where are we now?
+
+---
+
 # Continuous Integration
 
 ---
