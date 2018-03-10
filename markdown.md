@@ -23,22 +23,31 @@ background-image: url(images/brina-blum-112501-unsplash.jpg)
 
 ---
 
+# In the Cloud now
+
+---
+
 # Continuous Integration
 
 ---
 
-## test2
+.center[![Agile without empowerment is just waterfall with more meetings...](images/tweet-agile-without-empowerment.png)]
 
-a
-???
-qwe
---
-b
-???
-asd
---
-c
+---
 
+class: center, middle, white-headline
+background-image: url(images/american-public-power-association-430863-unsplash.jpg)
+.photo-credit[ [photo: American Public Power Association](https://unsplash.com/photos/AA5v6sMcalY) ]
+
+# Empowerment
+
+---
+
+class: center, middle, white-headline
+background-image: url(images/jair-lazaro-480021-unsplash.jpg)
+.photo-credit[ [photo: Jair Lázaro](https://unsplash.com/photos/0lrJo37r6Nk) ]
+
+# Monitoring
 
 ---
 
