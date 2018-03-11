@@ -10,6 +10,11 @@ body {
     font-size: 1.25rem;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 h1,
 h2,
 h3 {
@@ -27,6 +32,10 @@ h3 {
 .white-headline h1,
 .white-headline h2,
 .white-headline h3 {
+    color: #fff;
+}
+
+.white-text {
     color: #fff;
 }
 

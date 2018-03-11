@@ -23,11 +23,27 @@ background-image: url(images/brina-blum-112501-unsplash.jpg)
 
 ---
 
-# In the Cloud now
+class: center, white-headline, white-text
+background-image: url(images/andrik-langfield-petrides-512923-unsplash.jpg)
+.photo-credit[ [photo: ANDRIK LANGFIELD PETRIDES](https://unsplash.com/photos/TyIx-Hyyki0) ]
+
+# In the Cloud
+
+--
+
+* Amazon Web Services
+
+--
+
+* manged services over self-hosted
 
 ---
 
 # Continuous Integration
+
+--
+
+- trunk based development
 
 ---
 
