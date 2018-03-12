@@ -89,6 +89,11 @@ fast-forward to now
 
 ---
 
+class: center, white-headline
+background-image: url(images/allen-cai-106401-unsplash.jpg)
+.photo-credit[ [photo: Allen Cai](https://unsplash.com/photos/Y4RxCIaYaSk) ]
+
+
 # Where are we now?
 
 ---
