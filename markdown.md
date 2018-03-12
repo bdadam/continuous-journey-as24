@@ -11,13 +11,39 @@ background-image: url(images/dardan-mu-268794-unsplash.jpg)
 
 ---
 
-# AutoScout24
+class: middle
+
+<img src="images/autoscout24.svg" width="400" alt="Logo of AutoScout24" style="display: block; margin: 40px auto;">
 
 10 million users per month and more than 2.4 million vehicle offers – AutoScout24 is the largest online car marketplace in Europe. With a market presence in 18 countries and more than 55,000 associated dealers, AutoScout24 is represented in all important European markets.
 
+----
+
+<small>
+[autoscout24.com](https://www.autoscout24.com) &middot;
+[autoscout24.de](https://www.autoscout24.de) &middot;
+[autoscout24.at](https://www.autoscout24.at) &middot;
+[autoscout24.it](https://www.autoscout24.it) &middot;
+[autoscout24.be](https://www.autoscout24.be) &middot;
+[autoscout24.fr](https://www.autoscout24.fr) &middot;
+[autoscout24.lu](https://www.autoscout24.lu) &middot;
+[autoscout24.nl](https://www.autoscout24.nl)  
+[autoscout24.es](https://www.autoscout24.es) &middot;
+[autoscout24.hu](https://www.autoscout24.hu) &middot;
+[autoscout24.pl](https://www.autoscout24.pl) &middot;
+[autoscout24.bg](https://www.autoscout24.bg) &middot;
+[autoscout24.cz](https://www.autoscout24.cz) &middot;
+[autoscout24.ro](https://www.autoscout24.ro) &middot;
+[autoscout24.hr](https://www.autoscout24.hr) &middot;
+[autoscout24.ru](https://www.autoscout24.ru)  
+[autoscout24.se](https://www.autoscout24.se) &middot;
+[autoscout24.com.tr](https://www.autoscout24.com.tr) &middot;
+[autoscout24.com.ua](https://www.autoscout24.com.ua)
+</small>
+
 ---
 
-[Traffic Estimate by SimilarWeb - Feb 2018](https://www.similarweb.com/website/autoscout24.de)
+[www.autoscout24.de - traffic estimate by SimilarWeb - Feb 2018](https://www.similarweb.com/website/autoscout24.de)
 
 .center[![Estimated Traffic of autoscout24.de](images/as24-traffic-estimate.png)]
 
