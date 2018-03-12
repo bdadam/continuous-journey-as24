@@ -57,6 +57,21 @@ background-image: url(images/brina-blum-112501-unsplash.jpg)
 
 ---
 
+# Where are we coming from?
+
+Ca. 6 years ago we had
+- ... a few monolithic ASP.Net/C# projects
+- ... continuous integration pipelines (TeamCity, ~4 stages)
+- ... automated unit tests
+- ... browser tests
+- ... a lot of manual testing
+- ... feature toggles
+- ... user tracking
+- ... from commit to release in under an hour (sometimes)
+- ... some projects were released (almost) daily
+
+---
+
 # Where are we now?
 
 ---
