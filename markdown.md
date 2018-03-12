@@ -11,6 +11,18 @@ background-image: url(images/dardan-mu-268794-unsplash.jpg)
 
 ---
 
+# AutoScout24
+
+10 million users per month and more than 2.4 million vehicle offers – AutoScout24 is the largest online car marketplace in Europe. With a market presence in 18 countries and more than 55,000 associated dealers, AutoScout24 is represented in all important European markets.
+
+---
+
+[Traffic Estimate by SimilarWeb - Feb 2018](https://www.similarweb.com/website/autoscout24.de)
+
+.center[![Estimated Traffic of autoscout24.de](images/as24-traffic-estimate.png)]
+
+---
+
 class: center, middle, white-headline
 background-image: url(images/brina-blum-112501-unsplash.jpg)
 .photo-credit[ [photo: Brina Blum](https://unsplash.com/photos/_fBturNUtd8) ]
@@ -33,17 +45,32 @@ background-image: url(images/andrik-langfield-petrides-512923-unsplash.jpg)
 
 * Amazon Web Services
 
---
-
 * manged services over self-hosted
+
+* wide range of services (EC2, Lambda, ECS, ELB, ALB, ...)
+
+---
+class: center, middle, white-headline, white-text
+background-image: url(images/chuttersnap-255215-unsplash.jpg)
+.photo-credit[ [photo: chuttersnap](https://unsplash.com/photos/fN603qcEA7g) ]
+
+# Continuous Integration and Deployment
 
 ---
 
-# Continuous Integration
+class: center, middle
 
---
+# Continuous Integration and Deployment
 
-- trunk based development
+- Infrastructure as code
+- Master branch based development
+- Feature toggling
+- Most teams not just do CI but also CD
+- Contributions from external teams through Pull Requests
+
+???
+- no server re-use / servers are recreated on all deployments
+- every commit goes live unless they fail the tests
 
 ---
 
@@ -55,7 +82,8 @@ class: center, middle, white-headline
 background-image: url(images/american-public-power-association-430863-unsplash.jpg)
 .photo-credit[ [photo: American Public Power Association](https://unsplash.com/photos/AA5v6sMcalY) ]
 
-# Empowerment
+# Power to the Teams
+<!-- # Empowerment -->
 
 ---
 
@@ -64,6 +92,17 @@ background-image: url(images/jair-lazaro-480021-unsplash.jpg)
 .photo-credit[ [photo: Jair Lázaro](https://unsplash.com/photos/0lrJo37r6Nk) ]
 
 # Monitoring
+
+--
+
+* We use CloudWatch and OpsGenie
+* Every team is on-call for their services in rotation
+
+---
+
+# Monitoring - Benefits
+
+* You are more careful 
 
 ---
 

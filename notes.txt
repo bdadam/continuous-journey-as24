@@ -14,3 +14,6 @@
 - Diversity?
 - Service-to-service communication
 - CI/CD - tools, everyone has access to their pipelines, Jenkins as self service
+
+- Cost awareness in teams
+- 

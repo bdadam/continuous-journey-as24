@@ -8,11 +8,31 @@ html {
 body {
     font-family: 'Droid Serif';
     font-size: 1.25rem;
+    color: #fff;    
+}
+
+.remark-slide-content {
+    background-color: #222;
 }
 
 ul {
     list-style: none;
     padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    padding-bottom: 12px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    max-height: 50%;
 }
 
 h1,
