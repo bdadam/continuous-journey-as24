@@ -61,14 +61,31 @@ background-image: url(images/brina-blum-112501-unsplash.jpg)
 
 Ca. 6 years ago we had
 - ... a few monolithic ASP.Net/C# projects
+- ... ca. 10 engineering and operations teams
+- ... ca. 2000 servers in own datacenter
 - ... continuous integration pipelines (TeamCity, ~4 stages)
-- ... automated unit tests
-- ... browser tests
+- ... automated unit tests and browser tests
 - ... a lot of manual testing
 - ... feature toggles
 - ... user tracking
 - ... from commit to release in under an hour (sometimes)
 - ... some projects were released (almost) daily
+
+???
+- releases were announced via email
+- somebody from ops monitoring releases
+- teams blocked by other teams
+- getting new servers was painful and slow process
+- throw software over the fence to the ops team
+- communication between ops and devs was slow and rare
+
+---
+
+background-image: url(images/samuele-errico-piccarini-197299-unsplash.jpg)
+.photo-credit[ [photo: Samuele Errico Piccarini](https://unsplash.com/photos/MyjVReZ5GLQ) ]
+
+???
+fast-forward to now
 
 ---
 
