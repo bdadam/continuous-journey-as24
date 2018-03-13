@@ -70,6 +70,7 @@ Ca. 6 years ago we had
 - ... user tracking
 - ... from commit to release in under an hour (sometimes)
 - ... some projects were released (almost) daily
+- ... optimized for MTBF 
 
 ???
 - releases were announced via email
@@ -99,8 +100,7 @@ background-image: url(images/allen-cai-106401-unsplash.jpg)
 
 # Where are we now?
 
-Now we have
-- ... ca. 20 mostly independent teams
+- ... ca. 20 independent teams
 - ... uncountable micro services and projects
 - ... polyglot architecture (Node.js, Scala, JVM, static pages) embracing the cloud
 - ... servers come and go (immutable machines, autoscaling, etc.)
@@ -113,17 +113,23 @@ class: center, white-headline, white-text
 background-image: url(images/andrik-langfield-petrides-512923-unsplash.jpg)
 .photo-credit[ [photo: ANDRIK LANGFIELD PETRIDES](https://unsplash.com/photos/TyIx-Hyyki0) ]
 
-- MTBF vs MTTR
-
 # Embrace the Cloud
 
 - Amazon Web Services
 - manged services over self-hosted
 - wide range of services (EC2, Lambda, ECS, ELB, ALB, ...)
-- Mean Time Between Failures vs Mean Time To Recovery
 
 ???
 - sometimes things just fail => retry, cache, leave it out
+
+---
+
+class: center, middle
+
+# MTBF vs MTTR
+
+- Mean Time Between Failures
+- Mean Time To Recovery
 
 ---
 
