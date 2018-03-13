@@ -137,6 +137,22 @@ class: center, middle
 
 ---
 
+# Managed services
+
+- Teams are more independent
+- Teams can choose technology more freely
+- E.g. no integration on the database level
+- No need to take care of the hardware
+
+???
+
+- no-one maintains DynamoDB
+- no physical hardware
+- no VMWare or other virtualization => we know what we get from an EC2 server
+- No common dependency on the database
+
+---
+
 class: center, middle, white-headline, white-text
 background-image: url(images/chuttersnap-255215-unsplash.jpg)
 .photo-credit[ [photo: chuttersnap](https://unsplash.com/photos/fN603qcEA7g) ]
