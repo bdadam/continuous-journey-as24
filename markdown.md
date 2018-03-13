@@ -93,8 +93,19 @@ class: center, white-headline
 background-image: url(images/allen-cai-106401-unsplash.jpg)
 .photo-credit[ [photo: Allen Cai](https://unsplash.com/photos/Y4RxCIaYaSk) ]
 
+# Where are we now?
+
+---
 
 # Where are we now?
+
+Now we have
+- ... ca. 20 mostly independent teams
+- ... uncountable micro services and projects
+- ... polyglot architecture (Node.js, Scala, JVM, static pages) embracing the cloud
+- ... servers come and go (immutable machines, autoscaling, etc.)
+- ... infrastructure as code
+- ... 
 
 ---
 
@@ -102,17 +113,24 @@ class: center, white-headline, white-text
 background-image: url(images/andrik-langfield-petrides-512923-unsplash.jpg)
 .photo-credit[ [photo: ANDRIK LANGFIELD PETRIDES](https://unsplash.com/photos/TyIx-Hyyki0) ]
 
-# In the Cloud
+- MTBF vs MTTR
 
---
+# Embrace the Cloud
 
-* Amazon Web Services
+- Amazon Web Services
+- manged services over self-hosted
+- wide range of services (EC2, Lambda, ECS, ELB, ALB, ...)
+- Mean Time Between Failures vs Mean Time To Recovery
 
-* manged services over self-hosted
-
-* wide range of services (EC2, Lambda, ECS, ELB, ALB, ...)
+???
+- sometimes things just fail => retry, cache, leave it out
 
 ---
+
+# Infrastructure as Code
+
+---
+
 class: center, middle, white-headline, white-text
 background-image: url(images/chuttersnap-255215-unsplash.jpg)
 .photo-credit[ [photo: chuttersnap](https://unsplash.com/photos/fN603qcEA7g) ]
