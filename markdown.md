@@ -117,29 +117,13 @@ background-image: url(images/andrik-langfield-petrides-512923-unsplash.jpg)
 
 # Embrace the Cloud
 
-- Amazon Web Services
 - manged services over self-hosted
 - wide range of services (EC2, Lambda, ECS, ELB, ALB, ...)
+- scales well for low and high demand
 
 ???
+- we are on Amazon Web Services
 - sometimes things just fail => retry, cache, leave it out
-
----
-
-class: center, middle
-
-# MTBF vs MTTR
-
-- Mean Time Between Failures
-- Mean Time To Recovery
-
----
-
-# Infrastructure as Code
-
----
-
-# Feature toggles vs. Feature Branches
 
 ---
 
@@ -156,6 +140,25 @@ class: center, middle
 - no physical hardware
 - no VMWare or other virtualization => we know what we get from an EC2 server
 - No common dependency on the database
+
+---
+
+class: center, middle
+.photo-credit[ [photo: Wikipedia](https://en.wikipedia.org/wiki/Mean_time_between_failures) ]
+
+# MTBF vs MTTR
+
+Mean Time Between Failures vs. Mean Time To Recovery
+
+![MTBF](images/time_between_failures.svg)
+
+---
+
+# Infrastructure as Code
+
+---
+
+# Feature toggles vs. Feature Branches
 
 ---
 
