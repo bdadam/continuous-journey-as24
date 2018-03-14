@@ -100,17 +100,14 @@ background-image: url(images/allen-cai-106401-unsplash.jpg)
 - ... ca. 30 independent teams
 - ... uncountable micro services and projects
 - ... polyglot architecture (Node.js, Scala, JVM, static pages) embracing the cloud
-- ... each team can release independently
-- ... most teams do Continuous Deployment
 - ... teams are responsible for their infrastructure + code + features
-- ... releases are quick and "no big deals"
-<!-- - ... servers come and go (immutable machines, autoscaling, etc.)
-- ... infrastructure as code
-- ...  -->
+- ... teams release independently of other teams
 
 ???
 
-my team has ca. 10 services - all of them release under 10 minutes
+- most teams do Continuous Deployment
+- releases are quick and "no big deals"
+- my team has ca. 10 services - all of them release under 10 minutes
 
 ---
 
