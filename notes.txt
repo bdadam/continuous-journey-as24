@@ -17,3 +17,13 @@
 
 - Cost awareness in teams
 - 
+
+
+
+Learnings:
+- Empowerment
+- Infrastructure as Code
+- Incident handling
+- CI environments
+- Embrace the cloud
+- MTBF vs MTTR

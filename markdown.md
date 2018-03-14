@@ -66,11 +66,8 @@ Ca. 6 years ago we had
 - ... continuous integration pipelines (TeamCity, ~4 stages)
 - ... automated unit tests and browser tests
 - ... a lot of manual testing
-- ... feature toggles
-- ... user tracking
 - ... from commit to release in under an hour (sometimes)
 - ... some projects were released (almost) daily
-- ... optimized for MTBF 
 
 ???
 - releases were announced via email
@@ -100,12 +97,20 @@ background-image: url(images/allen-cai-106401-unsplash.jpg)
 
 # Where are we now?
 
-- ... ca. 20 independent teams
+- ... ca. 30 independent teams
 - ... uncountable micro services and projects
 - ... polyglot architecture (Node.js, Scala, JVM, static pages) embracing the cloud
-- ... servers come and go (immutable machines, autoscaling, etc.)
+- ... each team can release independently
+- ... most teams do Continuous Deployment
+- ... teams are responsible for their infrastructure + code + features
+- ... releases are quick and "no big deals"
+<!-- - ... servers come and go (immutable machines, autoscaling, etc.)
 - ... infrastructure as code
-- ... 
+- ...  -->
+
+???
+
+my team has ca. 10 services - all of them release under 10 minutes
 
 ---
 
@@ -134,6 +139,10 @@ class: center, middle
 ---
 
 # Infrastructure as Code
+
+---
+
+# Feature toggles vs. Feature Branches
 
 ---
 
@@ -196,27 +205,54 @@ background-image: url(images/jair-lazaro-480021-unsplash.jpg)
 
 # Monitoring
 
---
+---
 
-* We use CloudWatch and OpsGenie
-* Every team is on-call for their services in rotation
+- CloudWatch and DataDog for monitoring and dashboards
+- OpsGenie for alarming
+- Every team has on-call duty for their services
+
+???
+- false alarms are rare -> nobody likes to be woken up in the night
+- it costs money but we consider it like an insurance
+- on-call is supposed to be temporary => recovery should be automated in future
 
 ---
 
-# Monitoring - Benefits
-
-* You are more careful 
+background-image: url(images/datadog-2.png)
 
 ---
 
 class: center, middle, white-headline
 background-image: url(images/denys-argyriou-453348-unsplash.jpg)
-
-# Incidents
-
 .photo-credit[ [photo: Denys Argyriou](https://unsplash.com/photos/VU03qDREAgU) ]
+
+# Incident handling
+
+- fix the error vs. bring back the system to a healthy state
+- on-call duty and free hunting
 
 ???
 
-- On Call
-- Free hunting
+---
+
+# Unexpected Production Change
+
+- AWS CloudTrail
+- Monitoring that no manual changes are done to our production environment
+
+---
+
+class: center, middle
+background-image: url(images/pete-bellis-395558-unsplash.jpg)
+.photo-credit[ [photo: Pete Bellis](https://unsplash.com/photos/FIMTCLmEhFE) ]
+
+# Take aways
+
+---
+
+# Take aways
+
+- Embrace the cloud
+- Power to the teams
+- Make deployments a "no-brainer"
+- Have good monitoring and alarming
