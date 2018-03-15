@@ -192,6 +192,10 @@ Mean Time Between Failures vs. Mean Time To Recovery
 
 ---
 
+class: center, middle
+background-image: url(images/mike-wilson-113305-unsplash.jpg)
+.photo-credit[ [photo: Mike Wilson](https://unsplash.com/photos/HEHpVm5XqvQ) ]
+
 # Infrastructure as Code
 
 ---
@@ -325,3 +329,7 @@ background-image: url(images/pete-bellis-395558-unsplash.jpg)
 - Power to the teams
 - Make deployments a "no-brainer"
 - Have good monitoring and alarming
+
+.author[
+    Adam Beres-Deak | @bdadamm | me@bdadam.com
+]
