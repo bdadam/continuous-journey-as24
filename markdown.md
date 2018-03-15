@@ -99,9 +99,10 @@ background-image: url(images/allen-cai-106401-unsplash.jpg)
 
 - ... ca. 30 independent teams
 - ... uncountable micro services and projects
-- ... polyglot architecture (Node.js, Scala, JVM, static pages) embracing the cloud
+- ... polyglot architecture (Node.js, Scala, JVM, static pages)
 - ... teams are responsible for their infrastructure + code + features
 - ... teams release independently of other teams
+- ... in the cloud
 
 ???
 
@@ -111,24 +112,38 @@ background-image: url(images/allen-cai-106401-unsplash.jpg)
 
 ---
 
+# You built it - you run it!
+
+- The team is responsible for implementation and operation of the service
+- No more throwing over the fence
+
+???
+
+- there are services shifted from team to team but with the whole responsibility
+
+---
+
 class: center, white-headline, white-text
 background-image: url(images/andrik-langfield-petrides-512923-unsplash.jpg)
 .photo-credit[ [photo: ANDRIK LANGFIELD PETRIDES](https://unsplash.com/photos/TyIx-Hyyki0) ]
 
 # Embrace the Cloud
 
-- manged services over self-hosted
-- wide range of services (EC2, Lambda, ECS, ELB, ALB, ...)
-- scales well for low and high demand
+- Wide range of services - database, computing, networking, streaming, etc.
+- Scales well for low and high demand
 
 ???
+- you can use just a little bit or everything
+- multicloud possible
 - we are on Amazon Web Services
+-  EC2, Lambda, ECS, ELB, ALB
 - sometimes things just fail => retry, cache, leave it out
 
 ---
 
 # Managed services
 
+- Our principle: prefer manged services over self-hosted
 - Teams are more independent
 - Teams can choose technology more freely
 - E.g. no integration on the database level
@@ -140,6 +155,25 @@ background-image: url(images/andrik-langfield-petrides-512923-unsplash.jpg)
 - no physical hardware
 - no VMWare or other virtualization => we know what we get from an EC2 server
 - No common dependency on the database
+
+---
+
+# Data-driven
+
+???
+
+- tracking
+- data analytics
+
+---
+
+# Cost awareness
+
+- Cost is not hidden anymore
+- Cost can be estimated in advance
+- Cost is monitored on a service level
+
+???
 
 ---
 
@@ -158,7 +192,38 @@ Mean Time Between Failures vs. Mean Time To Recovery
 
 ---
 
-# Feature toggles vs. Feature Branches
+# Feature toggles
+
+- Every commit can go into production
+- No feature branches
+- We ship inactive code
+- Can be enabled on a request/user/language basis
+
+```js
+if (toggle('shiny-new-feature').isOn) {
+    // make the World a better place
+} else {
+    // let the World stay as it was before
+}
+```
+
+---
+
+# Ops toggles
+
+e.g. ads can be switched off if they are causing problems
+
+```js
+if (opsToggle('ads').isOn) {
+    showAds();
+}
+```
+
+---
+
+class: middle, center
+
+# A/B Testing
 
 ---
 
