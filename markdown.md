@@ -162,7 +162,7 @@ class: center, middle, white-headline
 background-image: url(images/chris-liverani-552652-unsplash.jpg)
 .photo-credit[ [photo: Chris Liverani](https://unsplash.com/photos/dBI_My696Rk) ]
 
-# Data-driven
+# Data Driven Decisions
 
 ???
 
