@@ -323,12 +323,16 @@ background-image: url(images/pete-bellis-395558-unsplash.jpg)
 
 ---
 
+class: center
+
 # Take aways
 
 - Embrace the cloud
 - Power to the teams
 - Make deployments a "no-brainer"
 - Have good monitoring and alarming
+
+Slides: [bit.ly/2pfkHdO](https://bit.ly/2pfkHdO)
 
 .author[
     Adam Beres-Deak | @bdadamm | me@bdadam.com
