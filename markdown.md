@@ -158,6 +158,10 @@ background-image: url(images/andrik-langfield-petrides-512923-unsplash.jpg)
 
 ---
 
+class: center, middle, white-headline
+background-image: url(images/chris-liverani-552652-unsplash.jpg)
+.photo-credit[ [photo: Chris Liverani](https://unsplash.com/photos/dBI_My696Rk) ]
+
 # Data-driven
 
 ???
