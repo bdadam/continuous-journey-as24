@@ -98,7 +98,7 @@ background-image: url(images/allen-cai-106401-unsplash.jpg)
 # Where are we now?
 
 - ... ca. 30 independent teams
-- ... uncountable micro services and projects
+- ... large number of (micro) services
 - ... polyglot architecture (Node.js, Scala, JVM, static pages)
 - ... teams are responsible for their infrastructure + code + features
 - ... teams release independently of other teams
