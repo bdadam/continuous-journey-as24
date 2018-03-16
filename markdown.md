@@ -136,8 +136,9 @@ background-image: url(images/andrik-langfield-petrides-512923-unsplash.jpg)
 - you can use just a little bit or everything
 - multicloud possible
 - we are on Amazon Web Services
--  EC2, Lambda, ECS, ELB, ALB
+- EC2, Lambda, ECS, ELB, ALB
 - sometimes things just fail => retry, cache, leave it out
+- vendor lock in?
 
 ---
 
@@ -155,6 +156,7 @@ background-image: url(images/andrik-langfield-petrides-512923-unsplash.jpg)
 - no physical hardware
 - no VMWare or other virtualization => we know what we get from an EC2 server
 - No common dependency on the database
+- exception: Infinity vs. Fargate
 
 ---
 
